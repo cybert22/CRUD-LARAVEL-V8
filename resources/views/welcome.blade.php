@@ -9,9 +9,17 @@
 </head>
 
 <body>
-    <h1>CRUD BÁSICO EN LARAVEL 8</h1>
 
+    <h1>CRUD BÁSICO EN LARAVEL 8</h1>
+    <div class="container">
+        <ul>
+            <li>lista1</li>
+            <li>lista2</li>
+            <li>lista3</li>
+            <li>lista4</li>
+            <li>lista5</li>
+        </ul>
+    </div>
 </body>
 
 </html>
-estoyespaw
