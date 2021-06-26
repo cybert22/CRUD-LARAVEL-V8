@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+// creamos una ruta para trabajar con nuestras rutas del crud
+Route::resource('contacto', ContactoController::class);
